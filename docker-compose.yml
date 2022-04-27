@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.3'
 
 services:
   server:
@@ -20,7 +20,7 @@ services:
     container_name: node_db
     image: "postgres:12"
     ports:
-      - "5432:5432"
+      - "5477:5477"
     environment:
       - POSTGRES_USER=my_calc_111
       - POSTGRES_PASSWORD=my_calc_111
