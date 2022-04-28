@@ -12,4 +12,4 @@ RUN npm install
 
 COPY .. .
 
-CMD ["node", "app/index.js"]
+CMD ["node", "app/index.js", "--host", "0.0.0.0"]
