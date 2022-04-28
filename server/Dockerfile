@@ -10,6 +10,6 @@ COPY package.json package-lock*.json ./
 
 RUN npm install
 
-COPY .. .
+COPY . .
 
 CMD ["node", "app/index.js", "--host", "0.0.0.0"]
